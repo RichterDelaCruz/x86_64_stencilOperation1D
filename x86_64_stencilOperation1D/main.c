@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-#define N 17 // Number of elements in array X
+#define N 17 // Number of elements in array X (will change as needed i.e. 2^20, 2^24, or 2^30)
 #define ITERATIONS 30 // Number of iterations for averaging
 
 // Function prototype for the assembly function
