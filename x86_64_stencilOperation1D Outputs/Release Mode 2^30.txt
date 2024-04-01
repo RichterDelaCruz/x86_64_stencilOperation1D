@@ -1,0 +1,426 @@
+Iteration 1:
+x -> 134.69, 180.27, 547.74, 416.12, 938.05, 362.31, 500.52, 134.69, 180.27, 547.74, and 1073741814 more
+
+C function
+Y -> 3079.70, 3155.40, 3123.91, 2885.80, 3335.95, 3067.38, 3256.20, 3147.69, 3779.77, 4414.10
+
+ASM function
+Y -> 3079.70, 3155.40, 3123.91, 2885.80, 3335.95, 3067.38, 3256.20, 3147.69, 3779.77, 4414.10
+
+The x86-64 kernel output is correct
+
+Total time taken for iteration 1 (ASM): 59.308000 seconds
+Total time taken for iteration 1 (C): 62.031000 seconds
+
+Iteration 2:
+x -> 679.78, 48.23, 915.64, 438.53, 861.83, 1.00, 709.91, 679.78, 48.23, 915.64, , and 1073741814 more
+
+C function
+Y -> 3654.92, 3623.42, 4384.34, 3835.47, 3566.90, 2756.68, 3647.20, 3280.25, 2915.55, 2551.19
+
+ASM function
+Y -> 3654.92, 3623.42, 4384.34, 3835.47, 3566.90, 2756.68, 3647.20, 3280.25, 2915.55, 2551.19
+
+The x86-64 kernel output is correct
+
+Total time taken for iteration 2 (ASM): 57.066000 seconds
+Total time taken for iteration 2 (C): 59.183000 seconds
+
+Iteration 3:
+x -> 547.74, 416.12, 938.05, 362.31, 500.52, 210.39, 148.78, 547.74, 416.12, 938.05, and 1073741814 more
+
+C function
+Y -> 3123.91, 2885.80, 3335.95, 3067.38, 3256.20, 3147.69, 3779.77, 4414.10, 5048.77, 4605.63
+
+ASM function
+Y -> 3123.91, 2885.80, 3335.95, 3067.38, 3256.20, 3147.69, 3779.77, 4414.10, 5048.77, 4605.63
+
+The x86-64 kernel output is correct
+
+Total time taken for iteration 3 (ASM): 56.780000 seconds
+Total time taken for iteration 3 (C): 58.468000 seconds
+
+Iteration 4:
+x -> 915.64, 438.53, 861.83, 1.00, 709.91, 648.29, 809.15, 915.64, 438.53, 861.83, and 1073741814 more
+
+C function
+Y -> 4384.34, 3835.47, 3566.90, 2756.68, 3647.20, 3280.25, 2915.55, 2551.19, 3107.08, 3303.24
+
+ASM function
+Y -> 4384.34, 3835.47, 3566.90, 2756.68, 3647.20, 3280.25, 2915.55, 2551.19, 3107.08, 3303.24
+
+The x86-64 kernel output is correct
+
+Total time taken for iteration 4 (ASM): 57.838000 seconds
+Total time taken for iteration 4 (C): 60.215000 seconds
+
+Iteration 5:
+x -> 938.05, 362.31, 500.52, 210.39, 148.78, 309.63, 866.28, 938.05, 362.31, 500.52, and 1073741814 more
+
+C function
+Y -> 3335.95, 3067.38, 3256.20, 3147.69, 3779.77, 4414.10, 5048.77, 4605.63, 4801.79, 4358.95
+
+ASM function
+Y -> 3335.95, 3067.38, 3256.20, 3147.69, 3779.77, 4414.10, 5048.77, 4605.63, 4801.79, 4358.95
+
+The x86-64 kernel output is correct
+
+Total time taken for iteration 5 (ASM): 56.811000 seconds
+Total time taken for iteration 5 (C): 58.804000 seconds
+
+Iteration 6:
+x -> 861.83, 1.00, 709.91, 648.29, 809.15, 366.76, 169.96, 861.83, 1.00, 709.91, and 1073741814 more
+
+C function
+Y -> 3566.90, 2756.68, 3647.20, 3280.25, 2915.55, 2551.19, 3107.08, 3303.24, 3859.43, 3024.58
+
+ASM function
+Y -> 3566.90, 2756.68, 3647.20, 3280.25, 2915.55, 2551.19, 3107.08, 3303.24, 3859.43, 3024.58
+
+The x86-64 kernel output is correct
+
+Total time taken for iteration 6 (ASM): 56.856000 seconds
+Total time taken for iteration 6 (C): 59.133000 seconds
+
+Iteration 7:
+x -> 500.52, 210.39, 148.78, 309.63, 866.28, 669.48, 551.13, 500.52, 210.39, 148.78, and 1073741814 more
+
+C function
+Y -> 3256.20, 3147.69, 3779.77, 4414.10, 5048.77, 4605.63, 4801.79, 4358.95, 4523.12, 4211.02
+
+ASM function
+Y -> 3256.20, 3147.69, 3779.77, 4414.10, 5048.77, 4605.63, 4801.79, 4358.95, 4523.12, 4211.02
+
+The x86-64 kernel output is correct
+
+Total time taken for iteration 7 (ASM): 56.532000 seconds
+Total time taken for iteration 7 (C): 58.660000 seconds
+
+Iteration 8:
+x -> 709.91, 648.29, 809.15, 366.76, 169.96, 51.61, 891.52, 709.91, 648.29, 809.15, and 1073741814 more
+
+C function
+Y -> 3647.20, 3280.25, 2915.55, 2551.19, 3107.08, 3303.24, 3859.43, 3024.58, 2712.47, 2555.74
+
+ASM function
+Y -> 3647.20, 3280.25, 2915.55, 2551.19, 3107.08, 3303.24, 3859.43, 3024.58, 2712.47, 2555.74
+
+The x86-64 kernel output is correct
+
+Total time taken for iteration 8 (ASM): 55.684000 seconds
+Total time taken for iteration 8 (C): 57.577000 seconds
+
+Iteration 9:
+x -> 148.78, 309.63, 866.28, 669.48, 551.13, 392.01, 842.47, 148.78, 309.63, 866.28, and 1073741814 more
+
+C function
+Y -> 3779.77, 4414.10, 5048.77, 4605.63, 4801.79, 4358.95, 4523.12, 4211.02, 4054.28, 3963.88
+
+ASM function
+Y -> 3779.77, 4414.10, 5048.77, 4605.63, 4801.79, 4358.95, 4523.12, 4211.02, 4054.28, 3963.88
+
+The x86-64 kernel output is correct
+
+Total time taken for iteration 9 (ASM): 56.351000 seconds
+Total time taken for iteration 9 (C): 58.897000 seconds
+
+Iteration 10:
+x -> 809.15, 366.76, 169.96, 51.61, 891.52, 342.95, 283.59, 809.15, 366.76, 169.96, and 1073741814 more
+
+C function
+Y -> 2915.55, 2551.19, 3107.08, 3303.24, 3859.43, 3024.58, 2712.47, 2555.74, 2465.34, 2449.76
+
+ASM function
+Y -> 2915.55, 2551.19, 3107.08, 3303.24, 3859.43, 3024.58, 2712.47, 2555.74, 2465.34, 2449.76
+
+The x86-64 kernel output is correct
+
+Total time taken for iteration 10 (ASM): 50.791000 seconds
+Total time taken for iteration 10 (C): 51.962000 seconds
+
+Iteration 11:
+x -> 866.28, 669.48, 551.13, 392.01, 842.47, 783.11, 944.30, 866.28, 669.48, 551.13, and 1073741814 more
+
+C function
+Y -> 5048.77, 4605.63, 4801.79, 4358.95, 4523.12, 4211.02, 4054.28, 3963.88, 3948.30, 3267.36
+
+ASM function
+Y -> 5048.77, 4605.63, 4801.79, 4358.95, 4523.12, 4211.02, 4054.28, 3963.88, 3948.30, 3267.36
+
+The x86-64 kernel output is correct
+
+Total time taken for iteration 11 (ASM): 50.462000 seconds
+Total time taken for iteration 11 (C): 51.830000 seconds
+
+Iteration 12:
+x -> 169.96, 51.61, 891.52, 342.95, 283.59, 444.78, 922.65, 169.96, 51.61, 891.52, and 1073741814 more
+
+C function
+Y -> 3107.08, 3303.24, 3859.43, 3024.58, 2712.47, 2555.74, 2465.34, 2449.76, 2767.84, 2266.37
+
+ASM function
+Y -> 3107.08, 3303.24, 3859.43, 3024.58, 2712.47, 2555.74, 2465.34, 2449.76, 2767.84, 2266.37
+
+The x86-64 kernel output is correct
+
+Total time taken for iteration 12 (ASM): 50.544000 seconds
+Total time taken for iteration 12 (C): 52.373000 seconds
+
+Iteration 13:
+x -> 551.13, 392.01, 842.47, 783.11, 944.30, 423.14, 865.64, 551.13, 392.01, 842.47, and 1073741814 more
+
+C function
+Y -> 4801.79, 4358.95, 4523.12, 4211.02, 4054.28, 3963.88, 3948.30, 3267.36, 3764.92, 3607.08
+
+ASM function
+Y -> 4801.79, 4358.95, 4523.12, 4211.02, 4054.28, 3963.88, 3948.30, 3267.36, 3764.92, 3607.08
+
+The x86-64 kernel output is correct
+
+Total time taken for iteration 13 (ASM): 50.458000 seconds
+Total time taken for iteration 13 (C): 52.086000 seconds
+
+Iteration 14:
+x -> 891.52, 342.95, 283.59, 444.78, 922.65, 366.12, 607.80, 891.52, 342.95, 283.59, and 1073741814 more
+
+C function
+Y -> 3859.43, 3024.58, 2712.47, 2555.74, 2465.34, 2449.76, 2767.84, 2266.37, 3107.57, 3984.86
+
+ASM function
+Y -> 3859.43, 3024.58, 2712.47, 2555.74, 2465.34, 2449.76, 2767.84, 2266.37, 3107.57, 3984.86
+
+The x86-64 kernel output is correct
+
+Total time taken for iteration 14 (ASM): 50.521000 seconds
+Total time taken for iteration 14 (C): 52.022000 seconds
+
+Iteration 15:
+x -> 842.47, 783.11, 944.30, 423.14, 865.64, 108.29, 556.19, 842.47, 783.11, 944.30, and 1073741814 more
+
+C function
+Y -> 4523.12, 4211.02, 4054.28, 3963.88, 3948.30, 3267.36, 3764.92, 3607.08, 3485.34, 2901.29
+
+ASM function
+Y -> 4523.12, 4211.02, 4054.28, 3963.88, 3948.30, 3267.36, 3764.92, 3607.08, 3485.34, 2901.29
+
+The x86-64 kernel output is correct
+
+Total time taken for iteration 15 (ASM): 50.261000 seconds
+Total time taken for iteration 15 (C): 52.152000 seconds
+
+Iteration 16:
+x -> 283.59, 444.78, 922.65, 366.12, 607.80, 56.67, 30.85, 283.59, 444.78, 922.65, and 1073741814 more
+
+C function
+Y -> 2712.47, 2555.74, 2465.34, 2449.76, 2767.84, 2266.37, 3107.57, 3984.86, 4399.83, 4717.58
+
+ASM function
+Y -> 2712.47, 2555.74, 2465.34, 2449.76, 2767.84, 2266.37, 3107.57, 3984.86, 4399.83, 4717.58
+
+The x86-64 kernel output is correct
+
+Total time taken for iteration 16 (ASM): 50.392000 seconds
+Total time taken for iteration 16 (C): 51.884000 seconds
+
+Iteration 17:
+x -> 944.30, 423.14, 865.64, 108.29, 556.19, 530.36, 626.37, 944.30, 423.14, 865.64, and 1073741814 more
+
+C function
+Y -> 4054.28, 3963.88, 3948.30, 3267.36, 3764.92, 3607.08, 3485.34, 2901.29, 2220.00, 1933.78
+
+ASM function
+Y -> 4054.28, 3963.88, 3948.30, 3267.36, 3764.92, 3607.08, 3485.34, 2901.29, 2220.00, 1933.78
+
+The x86-64 kernel output is correct
+
+Total time taken for iteration 17 (ASM): 50.501000 seconds
+Total time taken for iteration 17 (C): 51.985000 seconds
+
+Iteration 18:
+x -> 922.65, 366.12, 607.80, 56.67, 30.85, 126.85, 354.39, 922.65, 366.12, 607.80, and 1073741814 more
+
+C function
+Y -> 2465.34, 2449.76, 2767.84, 2266.37, 3107.57, 3984.86, 4399.83, 4717.58, 4431.36, 4708.31
+
+ASM function
+Y -> 2465.34, 2449.76, 2767.84, 2266.37, 3107.57, 3984.86, 4399.83, 4717.58, 4431.36, 4708.31
+
+The x86-64 kernel output is correct
+
+Total time taken for iteration 18 (ASM): 50.935000 seconds
+Total time taken for iteration 18 (C): 51.971000 seconds
+
+Iteration 19:
+x -> 865.64, 108.29, 556.19, 530.36, 626.37, 853.90, 407.56, 865.64, 108.29, 556.19, and 1073741814 more
+
+C function
+Y -> 3948.30, 3267.36, 3764.92, 3607.08, 3485.34, 2901.29, 2220.00, 1933.78, 2210.73, 2364.67
+
+ASM function
+Y -> 3948.30, 3267.36, 3764.92, 3607.08, 3485.34, 2901.29, 2220.00, 1933.78, 2210.73, 2364.67
+
+The x86-64 kernel output is correct
+
+Total time taken for iteration 19 (ASM): 50.638000 seconds
+Total time taken for iteration 19 (C): 51.896000 seconds
+
+Iteration 20:
+x -> 607.80, 56.67, 30.85, 126.85, 354.39, 907.07, 684.21, 607.80, 56.67, 30.85, and 1073741814 more
+
+C function
+Y -> 2767.84, 2266.37, 3107.57, 3984.86, 4399.83, 4717.58, 4431.36, 4708.31, 4862.24, 4227.06
+
+ASM function
+Y -> 2767.84, 2266.37, 3107.57, 3984.86, 4399.83, 4717.58, 4431.36, 4708.31, 4862.24, 4227.06
+
+The x86-64 kernel output is correct
+
+Total time taken for iteration 20 (ASM): 50.245000 seconds
+Total time taken for iteration 20 (C): 52.258000 seconds
+
+Iteration 21:
+x -> 556.19, 530.36, 626.37, 853.90, 407.56, 184.69, 605.85, 556.19, 530.36, 626.37, and 1073741814 more
+
+C function
+Y -> 3764.92, 3607.08, 3485.34, 2901.29, 2220.00, 1933.78, 2210.73, 2364.67, 2728.51, 3304.92
+
+ASM function
+Y -> 3764.92, 3607.08, 3485.34, 2901.29, 2220.00, 1933.78, 2210.73, 2364.67, 2728.51, 3304.92
+
+The x86-64 kernel output is correct
+
+Total time taken for iteration 21 (ASM): 50.370000 seconds
+Total time taken for iteration 21 (C): 51.932000 seconds
+
+Iteration 22:
+x -> 30.85, 126.85, 354.39, 907.07, 684.21, 106.34, 897.87, 30.85, 126.85, 354.39, and 1073741814 more
+
+C function
+Y -> 3107.57, 3984.86, 4399.83, 4717.58, 4431.36, 4708.31, 4862.24, 4227.06, 3804.43, 4117.82
+
+ASM function
+Y -> 3107.57, 3984.86, 4399.83, 4717.58, 4431.36, 4708.31, 4862.24, 4227.06, 3804.43, 4117.82
+
+The x86-64 kernel output is correct
+
+Total time taken for iteration 22 (ASM): 50.513000 seconds
+Total time taken for iteration 22 (C): 52.157000 seconds
+
+Iteration 23:
+x -> 626.37, 853.90, 407.56, 184.69, 605.85, 398.35, 408.62, 626.37, 853.90, 407.56, and 1073741814 more
+
+C function
+Y -> 3485.34, 2901.29, 2220.00, 1933.78, 2210.73, 2364.67, 2728.51, 3304.92, 3618.30, 3883.43
+
+ASM function
+Y -> 3485.34, 2901.29, 2220.00, 1933.78, 2210.73, 2364.67, 2728.51, 3304.92, 3618.30, 3883.43
+
+The x86-64 kernel output is correct
+
+Total time taken for iteration 23 (ASM): 49.959000 seconds
+Total time taken for iteration 23 (C): 52.530000 seconds
+
+Iteration 24:
+x -> 354.39, 907.07, 684.21, 106.34, 897.87, 908.14, 541.83, 354.39, 907.07, 684.21, and 1073741814 more
+
+C function
+Y -> 4399.83, 4717.58, 4431.36, 4708.31, 4862.24, 4227.06, 3804.43, 4117.82, 4382.94, 4446.14
+
+ASM function
+Y -> 4399.83, 4717.58, 4431.36, 4708.31, 4862.24, 4227.06, 3804.43, 4117.82, 4382.94, 4446.14
+
+The x86-64 kernel output is correct
+
+Total time taken for iteration 24 (ASM): 50.668000 seconds
+Total time taken for iteration 24 (C): 51.964000 seconds
+
+Iteration 25:
+x -> 407.56, 184.69, 605.85, 398.35, 408.62, 42.31, 172.62, 407.56, 184.69, 605.85, and 1073741814 more
+
+C function
+Y -> 2220.00, 1933.78, 2210.73, 2364.67, 2728.51, 3304.92, 3618.30, 3883.43, 3946.63, 4241.14
+
+ASM function
+Y -> 2220.00, 1933.78, 2210.73, 2364.67, 2728.51, 3304.92, 3618.30, 3883.43, 3946.63, 4241.14
+
+The x86-64 kernel output is correct
+
+Total time taken for iteration 25 (ASM): 51.351000 seconds
+Total time taken for iteration 25 (C): 53.198000 seconds
+
+Iteration 26:
+x -> 684.21, 106.34, 897.87, 908.14, 541.83, 672.13, 620.85, 684.21, 106.34, 897.87, and 1073741814 more
+
+C function
+Y -> 4431.36, 4708.31, 4862.24, 4227.06, 3804.43, 4117.82, 4382.94, 4446.14, 3741.63, 3714.49
+
+ASM function
+Y -> 4431.36, 4708.31, 4862.24, 4227.06, 3804.43, 4117.82, 4382.94, 4446.14, 3741.63, 3714.49
+
+The x86-64 kernel output is correct
+
+Total time taken for iteration 26 (ASM): 50.941000 seconds
+Total time taken for iteration 26 (C): 52.553000 seconds
+
+Iteration 27:
+x -> 605.85, 398.35, 408.62, 42.31, 172.62, 121.34, 461.64, 605.85, 398.35, 408.62, and 1073741814 more
+
+C function
+Y -> 2210.73, 2364.67, 2728.51, 3304.92, 3618.30, 3883.43, 3946.63, 4241.14, 4214.01, 4290.72
+
+ASM function
+Y -> 2210.73, 2364.67, 2728.51, 3304.92, 3618.30, 3883.43, 3946.63, 4241.14, 4214.01, 4290.72
+
+The x86-64 kernel output is correct
+
+Total time taken for iteration 27 (ASM): 51.181000 seconds
+Total time taken for iteration 27 (C): 53.174000 seconds
+
+Iteration 28:
+x -> 897.87, 908.14, 541.83, 672.13, 620.85, 961.16, 260.27, 897.87, 908.14, 541.83, and 1073741814 more
+
+C function
+Y -> 4862.24, 4227.06, 3804.43, 4117.82, 4382.94, 4446.14, 3741.63, 3714.49, 3791.20, 3374.73
+
+ASM function
+Y -> 4862.24, 4227.06, 3804.43, 4117.82, 4382.94, 4446.14, 3741.63, 3714.49, 3791.20, 3374.73
+
+The x86-64 kernel output is correct
+
+Total time taken for iteration 28 (ASM): 51.074000 seconds
+Total time taken for iteration 28 (C): 53.565000 seconds
+
+Iteration 29:
+x -> 62.62, 385.24, 57.80, 737.89, 241.70, 680.00, 261.86, 62.62, 385.24, 57.80, and 1073741814 more
+
+C function
+Y -> 2427.11, 2458.33, 2635.55, 3260.71, 3495.83, 4192.06, 4170.41, 4694.47, 5242.25, 5229.81
+
+ASM function
+Y -> 2427.11, 2458.33, 2635.55, 3260.71, 3495.83, 4192.06, 4170.41, 4694.47, 5242.25, 5229.81
+
+The x86-64 kernel output is correct
+
+Total time taken for iteration 29 (ASM): 55.500000 seconds
+Total time taken for iteration 29 (C): 57.200000 seconds
+
+Iteration 30:
+x -> 276.22, 406.34, 117.19, 859.97, 966.28, 249.69, 257.25, 276.22, 406.34, 117.19, and 1073741814 more
+
+C function
+Y -> 3132.93, 3039.37, 3149.92, 3850.25, 3582.57, 3578.70, 3420.31, 3686.08, 4176.96, 4352.45
+
+ASM function
+Y -> 3132.93, 3039.37, 3149.92, 3850.25, 3582.57, 3578.70, 3420.31, 3686.08, 4176.96, 4352.45
+
+The x86-64 kernel output is correct
+
+Total time taken for iteration 30 (ASM): 54.800000 seconds
+Total time taken for iteration 30 (C): 56.500000 seconds
+
+
+Average time taken over 30 iterations (ASM): 52.844000 seconds
+Average time taken over 30 iterations (C): 54.672000 seconds
+
+C:\Users\angel\source\repos\x64_86_StencilOperation1D\x64\Debug\x64_86_StencilOperation1D.exe (process 48184) exited with code 0.
+Press any key to close this window . . .
