@@ -1,0 +1,5 @@
+﻿  Performing Custom Build Tools
+  main.c
+C:\Users\angel\source\repos\x86_64_stencilOperation1D\main.c(30,55): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\angel\source\repos\x86_64_stencilOperation1D\main.c(85,55): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  x86_64_stencilOperation1D.vcxproj -> C:\Users\angel\source\repos\x86_64_stencilOperation1D\x64\Debug\x86_64_stencilOperation1D.exe
