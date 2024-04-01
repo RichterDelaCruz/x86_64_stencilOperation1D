@@ -67,7 +67,7 @@ To provide a comparative analysis of the performance of the kernels, you can cal
 
 
 ## Screenshots with Correctness Check
-Since the terminal output is lengthy, we will provide snippets from the first iterations up to the last iteration, along with the average time it takes. (the full output will be stored in a folder named “”
+Since the terminal output is lengthy, we will provide snippets from the first iterations up to the last iteration, along with the average time it takes. The full output will be stored in a folder named “x86_64_stencilOperation1D Outputs”.
 
 **Screenshots for Debug Mode**
 
