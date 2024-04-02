@@ -101,6 +101,17 @@ However, Assembly's inherent ability to precisely control hardware-specific oper
 ## Screenshots with Correctness Check
 Since the terminal output is lengthy, we will provide snippets from the first iterations up to the last iteration, along with the average time it takes. The full output will be stored in a folder named “x86_64_stencilOperation1D Outputs”.
 
+**The Code**
+
+The screenshots that is presented here is the output of the code that is made by the group.
+
+It exhibits the initial ten variables of X, followed by the computed results in both C and ASM programming languages. Furthermore, a notification is displayed, denoted as The x86_64 kernel, where the output of both C and ASM computations yields identical results.
+
+Following each iteration, a precise timestamp indicating the time elapsed is meticulously recorded and displayed for reference.
+
+Upon the culmination of all iterations, an exhaustive analysis of the collected data culminates in the presentation of the average time, providing invaluable insights into the computational performance across the entirety of the experimental trials.
+
+
 **Screenshots for Debug Mode**
 
 ***2^20***
