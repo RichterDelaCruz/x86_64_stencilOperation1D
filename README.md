@@ -28,10 +28,13 @@ To provide a comparative analysis of the performance of the kernels, you can cal
  ![image](https://github.com/RichterDelaCruz/x86_64_stencilOperation1D/assets/137752802/95424089-4b94-44b4-a407-c6631bcfebc7)
 The table shows the average execution speeds of C and Assembly (ASM) code in debug mode. The results indicate that ASM is generally faster than C.
 
-The results showed Assembly's performance edge over C in execution speed. This advantage stems from Assembly's ability to directly interact with the underlying hardware architecture. Assembly code maps closely to the processor's instruction set, allowing for fine-grained control over operations. In contrast, C code operates at a higher level of abstraction. While C compilers perform optimizations, Assembly bypasses this intermediary step, potentially resulting in a more streamlined and efficient execution path.
+The comparison between Assembly and C programming languages reveals a clear advantage for Assembly in terms of execution speed. This advantage can be attributed to Assembly's low-level nature, which allows it to directly interact with the underlying hardware of a computer system. In Assembly, programmers have granular control over the processor's instructions, enabling them to fine-tune operations for optimal performance.
+
+On the other hand, C operates at a higher level of abstraction, providing developers with a more user-friendly and portable language. While C compilers strive to optimize code for efficiency, they introduce an extra layer of interpretation between the source code and the hardware execution. This intermediate step, although beneficial for readability and portability, can sometimes result in less optimized performance compared to Assembly.
+
+The results of the comparison consistently show Assembly outperforming C across various scenarios. This performance gap is more noticeable with larger computations, where the overhead introduced by C's abstraction becomes more significant. Essentially, as the problem size grows, the direct and streamlined nature of Assembly becomes increasingly advantageous, highlighting its efficiency in handling complex calculations.
 
 This is evident in the results, where Assembly consistently outperforms C for all tested powers of 2. The margins are relatively small for smaller inputs (2^20 and 2^24) but become more significant for larger calculations (2^30). This suggests that the overhead of C's abstractions becomes more impactful as the problem size grows.
-
 
 **Release Mode:**
 
@@ -40,7 +43,14 @@ The table shows the average execution speeds of C and Assembly (ASM) code in rel
 
 Similar to the debug mode results, the release mode confirm Assembly's performance advantage over C. In all test cases (2^20, 2^24, and 2^30), Assembly code executes faster than its C counterpart.
 
-The speedup ratio, calculated by dividing C's execution time by Assembly's time, ranges from 1.02 to 1.05. This indicates that Assembly can be up to 5% faster than C in these benchmarks. While the margins seem small for smaller inputs (2^20 and 2^24), the efficiency gap widens for larger calculations (2^30). As seen in the debug mode analysis, Assembly's direct control over hardware instructions likely contributes to this efficiency. C code, despite compiler optimizations, might introduce some overhead due to its higher-level abstractions. This overhead becomes more apparent with increasing problem sizes.
+
+Speedup is a measure of how much faster one method of performing a task is compared to another. In this context, the speedup ratio compares the execution time of a program written in C to the execution time of the same program written in Assembly language. It is calculated by dividing the execution time of the C program by the execution time of the Assembly program.
+
+For example, if the speedup ratio is 1.05, it means that the Assembly program executes 5% faster than the equivalent C program. Conversely, if the ratio is less than 1, it means that the C program is faster than the Assembly program.
+
+In the benchmarks provided, the speedup ratios range from 1.02 to 1.05. This indicates that Assembly is up to 5% faster than C in these scenarios. While the difference may seem small for smaller inputs (such as 2^20 and 2^24), it becomes more significant for larger calculations (such as 2^30).
+
+The efficiency gap between Assembly and C widens as the problem size increases. This suggests that Assembly's direct control over hardware instructions likely contributes to its efficiency, while C's higher-level abstractions may introduce some overhead, despite compiler optimizations. This overhead becomes more pronounced with larger problem sizes, highlighting the advantage of Assembly in handling complex computations efficiently.
 
 **Comparison Graphs:**
 
