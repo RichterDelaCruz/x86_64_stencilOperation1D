@@ -103,16 +103,33 @@ Since the terminal output is lengthy, we will provide snippets from the first it
 
 **Screenshots for Debug Mode**
 
-**2^30**
+***2^20***
+![image](https://github.com/RichterDelaCruz/x86_64_stencilOperation1D/assets/137752802/fcc072ec-a56f-478e-9235-51c2e207a3c8)
+![image](https://github.com/RichterDelaCruz/x86_64_stencilOperation1D/assets/137752802/80cc5494-5382-4094-a950-b4aa8db37bb8)
+
+***2^24***
+![image](https://github.com/RichterDelaCruz/x86_64_stencilOperation1D/assets/137752802/d9216867-570c-4d33-b1ef-116c6ba7a678)
+![image](https://github.com/RichterDelaCruz/x86_64_stencilOperation1D/assets/137752802/ee52971e-1e65-4108-a8c5-79fa2a17b546)
+
+***2^30***
 ![image](https://github.com/RichterDelaCruz/x86_64_stencilOperation1D/assets/137752802/26996e43-8505-45bd-a211-06e94b2e7756)
 ![image](https://github.com/RichterDelaCruz/x86_64_stencilOperation1D/assets/137752802/52985a03-586a-457b-95d8-f10e6a0d44e8)
 
 
-**2^20**
-![image](https://github.com/RichterDelaCruz/x86_64_stencilOperation1D/assets/137752802/fcc072ec-a56f-478e-9235-51c2e207a3c8)
-![image](https://github.com/RichterDelaCruz/x86_64_stencilOperation1D/assets/137752802/80cc5494-5382-4094-a950-b4aa8db37bb8)
+**Screenshots for Release Mode**
 
-**2^24**
-![image](https://github.com/RichterDelaCruz/x86_64_stencilOperation1D/assets/137752802/d9216867-570c-4d33-b1ef-116c6ba7a678)
-![image](https://github.com/RichterDelaCruz/x86_64_stencilOperation1D/assets/137752802/ee52971e-1e65-4108-a8c5-79fa2a17b546)
+***2^20***
+![image](https://github.com/RichterDelaCruz/x86_64_stencilOperation1D/assets/137752802/3a8ead2f-a835-4c4c-94d6-395e0ec39296)
+![image](https://github.com/RichterDelaCruz/x86_64_stencilOperation1D/assets/137752802/1d906ff2-d25e-4e2a-af37-f262559ffddb)
+
+
+***2^24***
+![image](https://github.com/RichterDelaCruz/x86_64_stencilOperation1D/assets/137752802/8a9cd628-0206-465b-9875-41eea00e94e2)
+![image](https://github.com/RichterDelaCruz/x86_64_stencilOperation1D/assets/137752802/5f7b52c7-bcab-4cab-91f4-db3920c792c2)
+
+
+***2^30***
+![image](https://github.com/RichterDelaCruz/x86_64_stencilOperation1D/assets/137752802/ad7ade7f-c61c-4504-9022-a1aa3b95d5e2)
+![image](https://github.com/RichterDelaCruz/x86_64_stencilOperation1D/assets/137752802/a2998e4d-2e45-4ae5-a5ed-06d2f2d522d3)
+
 
