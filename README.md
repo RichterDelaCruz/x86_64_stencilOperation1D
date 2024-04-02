@@ -17,15 +17,30 @@ Write the kernel in (1) C program and (2) an x86-64 assembly language.  The kern
 
  ## Comparative execution time and short analysis of the performance of the kernels
 
+ **Calculation**
+
+To provide a comparative analysis of the performance of the kernels, you can calculate the speedup achieved by the assembly function compared to the C function. The speedup can be calculated using the following formula:
+
+<p style="text-align: center;"> Speedup = Time taken by C function / Time taken by assembly function </p>
+
 **Debug Mode:**
 
  ![image](https://github.com/RichterDelaCruz/x86_64_stencilOperation1D/assets/137752802/95424089-4b94-44b4-a407-c6631bcfebc7)
 The table shows the average execution speeds of C and Assembly (ASM) code in debug mode. The results indicate that ASM is generally faster than C.
 
+The results showed Assembly's performance edge over C in execution speed. This advantage stems from Assembly's ability to directly interact with the underlying hardware architecture. Assembly code maps closely to the processor's instruction set, allowing for fine-grained control over operations. In contrast, C code operates at a higher level of abstraction. While C compilers perform optimizations, Assembly bypasses this intermediary step, potentially resulting in a more streamlined and efficient execution path.
+
+This is evident in the results, where Assembly consistently outperforms C for all tested powers of 2. The margins are relatively small for smaller inputs (2^20 and 2^24) but become more significant for larger calculations (2^30). This suggests that the overhead of C's abstractions becomes more impactful as the problem size grows.
+
+
 **Release Mode:**
 
 ![image](https://github.com/RichterDelaCruz/x86_64_stencilOperation1D/assets/137752802/3fe33067-b6ab-4c70-8aeb-987e4722eef9)
 The table shows the average execution speeds of C and Assembly (ASM) code in release mode. The results indicate that ASM is generally faster than C.
+
+Similar to the debug mode results, the release mode confirm Assembly's performance advantage over C. In all test cases (2^20, 2^24, and 2^30), Assembly code executes faster than its C counterpart.
+
+The speedup ratio, calculated by dividing C's execution time by Assembly's time, ranges from 1.02 to 1.05. This indicates that Assembly can be up to 5% faster than C in these benchmarks. While the margins seem small for smaller inputs (2^20 and 2^24), the efficiency gap widens for larger calculations (2^30). As seen in the debug mode analysis, Assembly's direct control over hardware instructions likely contributes to this efficiency. C code, despite compiler optimizations, might introduce some overhead due to its higher-level abstractions. This overhead becomes more apparent with increasing problem sizes.
 
 **Comparison Graphs:**
 
@@ -58,12 +73,19 @@ A closer look for the comparison of 2^20 and 2^24
 A closer look for the comparison of 2^20 and 2^24
 ![image](https://github.com/RichterDelaCruz/x86_64_stencilOperation1D/assets/137752802/5448a263-9a4a-43b4-95db-123ee3b346e7)
 
-**Calculation**
+**Release Mode & Debug Mode Analysis**
 
-To provide a comparative analysis of the performance of the kernels, you can calculate the speedup achieved by the assembly function compared to the C function. The speedup can be calculated using the following formula:
+Release mode consistently delivers faster execution times compared to debug mode for all test cases (powers of 2). This is likely due to compiler optimizations that occur during the release build process. Optimizations can involve techniques like removing unnecessary code, streamlining calculations, and potentially even altering the order of operations for better efficiency.
 
-<p style="text-align: center;"> Speedup = Time taken by C function / Time taken by assembly function </p>
+*C*: The performance difference between debug and release mode for C is more noticeable for larger inputs (2^30). This suggests that compiler optimizations can significantly impact C code, especially for complex calculations.
 
+*Assembly*: While Assembly also benefits from optimizations in release mode, the speedup isn't as dramatic as with C. This might be because Assembly code already has a high level of control over hardware instructions, leaving less room for significant optimization improvements.
+
+**Optimization**
+
+There is a potential impact of compiler optimizations in release mode. Compilers often perform more aggressive optimizations for release builds compared to debug builds. These optimizations might narrow the performance gap between C and Assembly in some cases.
+
+However, Assembly's inherent ability to precisely control hardware-specific operations can still offer an edge, especially for performance-critical sections of code.
 
 
 ## Screenshots with Correctness Check
