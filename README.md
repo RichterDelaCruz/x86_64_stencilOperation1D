@@ -103,13 +103,11 @@ Since the terminal output is lengthy, we will provide snippets from the first it
 
 **The Code**
 
-The screenshots that is presented here is the output of the code that is made by the group.
+The screenshots displayed here depict the output of a code developed by our group. It starts by showing the initial ten variables of X, followed by the computed results in both C and Assembly (ASM) programming languages. Whenever the outputs of both C and ASM computations match, a notification labeled "The x86_64 kernel" appears.
 
-It exhibits the initial ten variables of X, followed by the computed results in both C and ASM programming languages. Furthermore, a notification is displayed, denoted as The x86_64 kernel, where the output of both C and ASM computations yields identical results.
+After each iteration, a timestamp indicating the elapsed time is recorded and displayed accurately.
 
-Following each iteration, a precise timestamp indicating the time elapsed is meticulously recorded and displayed for reference.
-
-Upon the culmination of all iterations, an exhaustive analysis of the collected data culminates in the presentation of the average time, providing invaluable insights into the computational performance across the entirety of the experimental trials.
+Once all iterations are complete, the average time is calculated and presented, offering valuable insights into the computational performance across all experimental trials.
 
 
 **Screenshots for Debug Mode**
